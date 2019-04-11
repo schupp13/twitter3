@@ -1,6 +1,7 @@
 
-body{
+*{
   font-family: "Segoe UI",Arial,sans-serif;
+  box-sizing: border-box;
 }
 .app{
   min-height: 100vh;
@@ -8,35 +9,11 @@ body{
 }
 
 .rightcol, .leftcol{
-  min-height: 95vh;
+  min-height: 97vh;
 }
 
 
-.footer{
-  min-height: 5vh;
-  background-color: #FFFFFF;
-  color:lightgrey;
-  border: 1px grey solid;
-}
 
-.footer ul{
-  min-height: 5vh;
-
-  color:lightgrey;
-  list-style: none;
-
-}
-
-.footer ul li{
-  min-height: 5vh;
-
-  color:lightgrey;
-
-}
-
-.footer ul li a{
-  color:darkgrey;
-}
 
 .messages{
   color:white;
@@ -58,12 +35,66 @@ body{
   padding-right: 20px;
 }
 
+.login-form{
+  
+}
 
 
 
 .rightcol{
   background-color: white;
 }
+
+.login-button{
+   border-radius: 40%;
+   border-color: #1DA1F2;
+   color:#1B95E0;
+   background-color:white;
+}
+
+.login-button:hover{
+
+   color:white;
+   background-color:#1B95E0;
+
+}
+
+.big-buttons{
+
+  width: 80%
+}
+
+.signup{
+  border-radius: 12px;
+  margin:5%;
+  background-color:#1DA1F2;
+  color:white;
+  font-weight: bold;
+  padding:5px;
+}
+.signup:hover{
+
+  background-color:#1B95E0;
+  color:white;
+  font-weight: bold;
+
+}
+
+.login{
+  border-radius: 12px;
+  margin:5%;
+  font-weight: bold;
+  font-weight: bold;
+  padding:5px;
+  background-color: white;
+  color: #1DA1F2;
+}
+
+.login:hover{
+  background-color: lightblue;
+  color: #1DA1F2;
+}
+
 
 
 .leftcol{
@@ -78,3 +109,17 @@ body{
   display: flex;
   flex-direction: row;
 }
+
+
+.footer-list ul{
+  list-style: none;
+  margin: 0 20%;
+}
+/* .footer-list ul li{
+  list-style: none;
+ } */
+
+ .footer-list ul li a{
+   font-size: 12px;
+   color:#AAB8C6;
+  }
