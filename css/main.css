@@ -1,0 +1,80 @@
+
+body{
+  font-family: "Segoe UI",Arial,sans-serif;
+}
+.app{
+  min-height: 100vh;
+
+}
+
+.rightcol, .leftcol{
+  min-height: 95vh;
+}
+
+
+.footer{
+  min-height: 5vh;
+  background-color: #FFFFFF;
+  color:lightgrey;
+  border: 1px grey solid;
+}
+
+.footer ul{
+  min-height: 5vh;
+
+  color:lightgrey;
+  list-style: none;
+
+}
+
+.footer ul li{
+  min-height: 5vh;
+
+  color:lightgrey;
+
+}
+
+.footer ul li a{
+  color:darkgrey;
+}
+
+.messages{
+  color:white;
+  font-size: 100px;
+  font-weight: bold;
+  margin: 48px 0;
+}
+
+.messages h6{
+  color:white;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 25px 0;
+  line-height: 24px;
+}
+
+.message-images{
+  max-height: 40px;
+  padding-right: 20px;
+}
+
+
+
+
+.rightcol{
+  background-color: white;
+}
+
+
+.leftcol{
+  background-color: #1B95E0;
+  background-image: url("../img/watermark.png");
+  background-size: 95vh;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+}
